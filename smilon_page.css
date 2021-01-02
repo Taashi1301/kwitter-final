@@ -1,0 +1,20 @@
+body{
+    background-image:linear-gradient(lightblue,lightgreen);
+}
+button{
+  font-family: 'Courier New', Courier, monospace;
+}
+#message_input{
+  font-family: initial;
+}
+#message_div{
+  background-color:lightcyan;
+  border-radius: 30%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: orangered;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

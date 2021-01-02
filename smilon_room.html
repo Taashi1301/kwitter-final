@@ -1,0 +1,33 @@
+<html>
+ <head>
+     <title>Smilon Rooms</title>
+     <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script> <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script> <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+     <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+     
+     <link rel="stylesheet" type="text/css" href="smilon_room.css">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+     <link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
+     <script src="smilon_room.js"></script>
+     <link href='https://fonts.googleapis.com/css?family=Armata' rel='stylesheet'>
+ </head>
+ <body>
+     <center>
+     <h2>Meet. Share. Know.</h2>
+     <h3>With Smilon</h3>
+     <br>
+     <h3 id="username_welcome"></h3>
+     <br>
+     <input type="text" id="room_name" class="form-control" placeholder="#Which Room Do You Want To Go To?">
+     <br>
+     <button id="addroom" class="btn btn-success" onclick="addroom()">Go To Room</button>
+     <br>
+     <br>
+     <div id="trending_rooms" class="col-lg-4 col-md-4 col-sm-6 col-xs-10"></div>
+    </center>
+    <button id="logout" class="btn btn-warning" onclick="logout()">Logout</button>
+ </body>
+</html>

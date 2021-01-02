@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+}
+h2,h3{
+  font-family: Armata;
+  color: aliceblue;
+}
+button{
+  font-family: 'Courier New', Courier, monospace;
+}
+#room_name{
+  font-family: initial;
+}
+#trending_rooms{
+  background-color:lightcyan;
+}

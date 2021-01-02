@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Smilon Chat</title>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script> <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script> <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="smilon_page.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+  <link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
+  <script src="smilon_page.js"></script>  
+    </head>
+    <body>
+        <button id="logout" onclick="logout()" class="btn btn-warning">Logout</button>
+        <center>
+          <div id="message_div"></div>
+          <br><br>
+          <input type="text" id="message_input" class="form-control col-lg-6 col-md-6 col-sm-6 col-xs-9" placeholder="What Do You Want To Say Today?">
+          <br>
+          <button id="sendbtn" onclick="send()" class="btn btn-primary">SEND</button> 
+        </center>
+    </body>
+</html>

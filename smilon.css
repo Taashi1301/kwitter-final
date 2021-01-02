@@ -1,0 +1,18 @@
+body {
+	background-image: url(smilon_background.jpeg);
+	background-size:cover;
+	background-position: center;
+}
+h2,h3{
+	font-family: Abeezee;
+	color: yellow;
+}
+button{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+input{
+	width:"300px";
+}
+#logindiv{
+		text-align: center;
+}
